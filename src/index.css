@@ -1,0 +1,20 @@
+/**
+ * FILE HEADER: Global Styles (CSS)
+ * 
+ * This file defines the "look and feel" of the entire application,
+ * such as fonts, colors, and general spacing rules.
+ * 
+ * For non-coders: This is the "paint and wallpaper" of our digital house.
+ */
+
+/* Import the Tailwind CSS framework for easy styling */
+@import "tailwindcss";
+
+/* Import the Typography plugin to make text (like letters) look beautiful */
+@plugin "@tailwindcss/typography";
+
+@theme {
+  /* Set the default font for the entire application */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
